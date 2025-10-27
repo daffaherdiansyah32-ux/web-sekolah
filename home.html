@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Sekolah SMK Pelita Ciampea</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+ <style>
+    body {
+      background-color: rgb(232, 252, 162);
+    }
+  </style>
+</head>
+<body>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1>&#127979; SMK PELITA CIAMPEA</h1> <!-- karakter khusus -->
+    <nav>
+      <ul>
+        <li><a href="#home" style="color:blue;background-color:Home">Home </a></li>
+        <li><a href="#about" style="color:blue;background-color:about">About Us</a></li>
+        <li><a href="#gallery" style="color:blue;background-color:Home">Gallery</a></li>
+        <li><a href="#contact" style="color:blue;background-color:Home">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home">
+      <h2>Selamat Datang di Website Resmi SMK Pelita Ciampea</h2>
+      <p>
+        Kami berkomitmen mencetak generasi <strong>cerdas</strong>, 
+        <em>berakhlak</em>, dan <u>berprestasi</u>.  
+        Mari bergabung bersama kami &hearts;!
+      </p>
+
+      <!-- Gambar -->
+      <img src="smk pelita.jpg" alt="Foto Sekolah" width="500">
+      
+      <!-- Audio -->
+      <h3>Lagu Mars Sekolah</h3>
+      <audio controls>
+        <source src="running-night-393139.mp3" type="audio/mpeg">
+      </audio>
+
+      <!-- Video -->
+      <h3>Video Profil Sekolah</h3>
+      <video controls width="300">
+        <source src="WhatsApp Video 2025-10-26 at 16.13.47.mp4" type="video/mp4">
+      </video>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <h2>Tentang Kami</h2>
+      <p>SMKS PELITA CIAMPEA 1 didirikan pada tanggal 22 November 1996.
+         Sekolah ini memiliki program unggulan:</p>
+
+      <!-- List -->
+      <ul>
+        <li>Program IPA dan IPS</li>
+        <li>Kegiatan Ekstrakurikuler yang aktif</li>
+        <li>Kerjasama dengan universitas ternama</li>
+      </ul>
+
+      <p>Visi kami: <q>Membangun generasi unggul, beriman, dan berilmu.</q></p>
+
+      <!-- Link -->
+      <p>
+        Kunjungi <a href="https://kemdikbud.go.id" target="_blank">Kementerian Pendidikan</a> 
+        untuk informasi lebih lanjut.
+      </p>
+
+      <!-- Tabel -->
+      <h3>Data Guru dan Mata Pelajaran</h3>
+      <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Nama Guru</th>
+            <th>Mata Pelajaran</th>
+            <th>Jadwal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ibu Sinta</td>
+            <td>Matematika</td>
+            <td>Senin & Rabu</td>
+          </tr>
+          <tr>
+            <td>Pak Budi</td>
+            <td>Bahasa Indonesia</td>
+            <td>Selasa & Kamis</td>
+          </tr>
+          <tr>
+            <td>Ibu Rina</td>
+            <td>Kimia</td>
+            <td>Jumat</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery">
+      <h2>Galeri Sekolah</h2>
+      <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" 
+              width="560" height="315" 
+              title="Video YouTube"
+              allowfullscreen>
+      </iframe>
+      <p>Video di atas menampilkan kegiatan siswa kami selama satu tahun ajaran.</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>Hubungi Kami</h2>
+      <form action="#" method="post">
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required><br><br>
+
+        <label for="pesan">Pesan:</label><br>
+        <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesan Anda di sini..." required></textarea><br><br>
+
+        <button type="submit">Kirim Pesan</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 SMA Negeri 1 Maju Bersama | Dibuat dengan &#128153; oleh Tim IT Sekolah</p>
+  </footer>
+</body>
+</html>
